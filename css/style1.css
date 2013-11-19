@@ -1,0 +1,22 @@
+@import url("bootstrap.min.css");
+@import url("bootstrap.css");
+@import url("bootstrap-theme.css");
+
+
+.navbar-brand{
+    background-image: url('../img/logo.png');
+    background-repeat: no-repeat;
+    height: 50px;
+    color: transparent;
+    width: 135px;
+    background-size: 130px,100px;
+    display: block;
+    text-shadow: none;
+    text-align: center;
+    background-color: transparent;
+
+}
+
+body{
+    margin-bottom: 80px;
+}
