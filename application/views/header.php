@@ -18,11 +18,11 @@
 	  </button>
            <div class="collapse navbar-collapse navHeaderCollapse">
             <ul class="nav navbar-nav">
-              <li class="active"><a href="#">Home</a></li>
-	       <li><a href="#">Photos</a></li>
-	        <li><a href="#">Videos</a></li>
-		 <li><a href="#">About</a></li>
-		 <li><a href="#">Contact</a></li>
+              <li class="active"><a data-toggle="pill" href="#">Home</a></li>
+	       <li><a data-toggle="pill" href="#">Photos</a></li>
+	        <li><a data-toggle="pill" href="upload">Upload</a></li>
+		 <li><a data-toggle="pill" href="about">About</a></li>
+		 <li><a data-toggle="pill" href="contact">Contact</a></li>
             </ul>
             <form class="navbar-form navbar-right" role="search">
               <div class="form-group">
