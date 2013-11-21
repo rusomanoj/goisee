@@ -7,6 +7,7 @@ class Homecon extends CI_Controller{
 	 $this->load->model('basemodel');
 	      $data['see']=$this->basemodel->get_fun();
             $this->load->view('home',$data);
+	    $this->load->helper('url');
     }
     
  

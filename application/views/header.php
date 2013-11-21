@@ -20,7 +20,7 @@
             <ul class="nav navbar-nav">
               <li class="active"><a data-toggle="pill" href="#">Home</a></li>
 	       <li><a data-toggle="pill" href="#">Photos</a></li>
-	        <li><a data-toggle="pill" href="upload">Upload</a></li>
+	        <li><a data-toggle="pill" href="<?php echo site_url('upload') ?>">Upload</a></li>
 		 <li><a data-toggle="pill" href="about">About</a></li>
 		 <li><a data-toggle="pill" href="contact">Contact</a></li>
             </ul>
